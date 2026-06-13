@@ -2,6 +2,8 @@
 
 Musikarien eguneroko entseguak planifikatu, monitorizatu eta optimizatzeko plataforma anitzeko aplikazioa. Tresna tekniko guztiak leku bakarrean zentralizatzen ditu, Adimen Artifizial sortzailearen laguntzarekin.
 
+📥 **[Deskargatu APK fitxategia hemen (Android)](https://github.com/anderarru/gral-klabe-app/releases/latest)**
+
 *Oharra: Proiektu hau Euskal Herriko Unibertsitateko (EHU) Informatika Ingeniaritzako Gradu Amaierako Lan (GrAL) gisa garatu da.*
 
 ---
