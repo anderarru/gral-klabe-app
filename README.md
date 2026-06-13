@@ -1,16 +1,24 @@
-# music_app
+# KLAbE: Musikarien praktika instrumentala kudeatzeko eta optimizatzeko aplikazioa
 
-A new Flutter project.
+Musikarien eguneroko entseguak planifikatu, monitorizatu eta optimizatzeko plataforma anitzeko aplikazioa. Tresna tekniko guztiak leku bakarrean zentralizatzen ditu, Adimen Artifizial sortzailearen laguntzarekin.
 
-## Getting Started
+*Oharra: Proiektu hau Euskal Herriko Unibertsitateko (EHU) Informatika Ingeniaritzako Gradu Amaierako Lan (GrAL) gisa garatu da.*
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## Funtzionalitate nagusiak
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+* **Agenda adimenduna:** Saioen eta errutinen planifikazio malgua hodeiko sinkronizazioarekin.
+* **Doitasun handiko metronomoa:** Exekuzio-hari natiboetan inplementatua, latentzia ezabatzeko eta pultsua zehatz mantentzeko.
+* **Afinadore kromatikoa:** YIN algoritmoan oinarritutako denbora errealeko seinaleen prozesamendua, frekuentziak (Hz) nota zehatz bihurtuz.
+* **Grabazio sekuentziala:** Entseguen jarraipena egiteko tokiko audio-grabazio optimizatuak (M4A/AAC-LC formatuan).
+* **AA Irakasle Birtuala:** LLM ereduak (Llama-3) integratuta, errutinak automatikoki sortzeko eta erabiltzaileari neurrirako *feedback* pedagogikoa emateko.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## Arkitektura eta Teknologiak
+
+* **Frontend:** Flutter eta Dart (Material 3).
+* **Backend (BaaS):** Firebase Auth (OAuth 2.0) eta Cloud Firestore (NoSQL datu-basea segurtasun arauekin).
+* **Audioa eta Hardwarea:** `flutter_audio_capture`, `pitch_detector_dart` eta espezifikoki garatutako harrapaketa-logika.
+* **Adimen Artifiziala:** Groq REST APIa (*Prompt Engineering* aurreratua eta JSON egituratuen prozesamendua).
